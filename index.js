@@ -10,3 +10,7 @@ const logShout = (string) => {
   let shout = string.toUpperCase()
   console.log(shout)
 }
+
+const logWhisper = (string) => {
+  
+}
