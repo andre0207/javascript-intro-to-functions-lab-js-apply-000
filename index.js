@@ -1,16 +1,17 @@
 const shout = (string) => {
-  return string.toUpperCase()
+  return string.toUpperCase();
 }
 
 const whisper = (string) => {
-  return string.toLowerCase()
+  return string.toLowerCase();
 }
 
 const logShout = (string) => {
-  let shout = string.toUpperCase()
+  let shout = string.toUpperCase();
   console.log(shout)
 }
 
 const logWhisper = (string) => {
-  
-}
+  let whisp = string.toLowerCase();
+  console.log(whisp);
+};
