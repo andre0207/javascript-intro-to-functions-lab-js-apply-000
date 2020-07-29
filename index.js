@@ -1,3 +1,3 @@
-const shout = () => {
-  
+const shout = (string) => {
+  return string.upcase()
 }
